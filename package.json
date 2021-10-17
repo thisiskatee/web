@@ -10,7 +10,16 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisiskatee/web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thisiskatee/web/issues"
+  },
+  "homepage": "https://github.com/thisiskatee/web#readme",
   "description": ""
 }

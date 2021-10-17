@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="inline">
+        <h2>Форма для отправки</h2>
+        <form id="contact" action="#" method="post" name="contact">
+        <input id="name" class="txt" name="name" type="name" placeholder="Ваше имя">
+        <input id="surname" class="txt" name="surname" type="surname" placeholder="Ваша фамилия"> 
+        <input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
+        <textarea id="msg" class="txtarea" name="msg" placeholder="Ваше сообщение:"></textarea>
+        
+        <p>Вам нравится сервис?</p>
+        <p><input name="service" type="radio" value="yes">Да</p>
+        <p><input name="service" type="radio" value="no"> Нет</p>
+        <p>Сколько раз вы вернетесь сюда?</p>
+        <label class="container">Один
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Два
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Три
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        
+        <p>Спасибо за обратную связь!</p>
+        <button id="send">Отправить</button></form>
+    </div>
+    
+    
+    
+</body>
+</html>
